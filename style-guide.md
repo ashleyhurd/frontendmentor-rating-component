@@ -8,7 +8,8 @@ The designs were created to the following widths:
 - Desktop: 1440px
 
 ## Colors
-
+- body: #141519
+- box: #202731
 ### Primary
 
 - Orange: hsl(25, 97%, 53%)
@@ -31,3 +32,5 @@ The designs were created to the following widths:
 
 - Family: [Overpass](https://fonts.google.com/specimen/Overpass)
 - Weights: 400, 700
+
+- font-family: 'Overpass', sans-serif;

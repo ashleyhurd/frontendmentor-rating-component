@@ -1,0 +1,29 @@
+/*  BASE STYLES */
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+}
+
+ul li {
+    color: hsl(217, 12%, 63%);
+    list-style: none;
+}
+
+/* DESIGN DIV */
+
+
+/* THANK YOU DIV */ 
+
+
+/* MOBILE */
+
+/* DESKTOP */
