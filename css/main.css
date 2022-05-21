@@ -1,11 +1,11 @@
 /*  BASE STYLES */
 
 body {
-    background-color: hsl(216, 12%, 8%);
+    background-color: #141519;
     font-family: 'Overpass', sans-serif;
 }
 
-h1{
+h1 {
     color: hsl(0, 0%, 100%);
 }
 
@@ -13,17 +13,38 @@ p {
     color: hsl(217, 12%, 63%);
 }
 
+/* DESIGN DIV */
+.design img {
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    border: 1px;
+    padding: 12px;;
+}
+
 ul li {
     color: hsl(217, 12%, 63%);
     list-style: none;
 }
 
-/* DESIGN DIV */
+button {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
 
 
 /* THANK YOU DIV */ 
 
 
 /* MOBILE */
+@media only screen and (min-width: 375px) {
+    /*mobile styles here*/
+    }
+    .design {
+        max-width: 351px;
+    }
+
 
 /* DESKTOP */
+@media only screen and (min-width: 1200px) {  
+    /*Desktop styles here */  
+    }
