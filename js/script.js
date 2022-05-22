@@ -1,4 +1,7 @@
-const thank = document.getElementById("thank");
+const rate = document.getElementById("numbers");
 
-thank.style.display="none";
+rate.addEventListener('click', function onClick() {
+    rate.style.backgroundColor = 'hsl(25, 97%, 53%)';
+    rate.style.color = 'white';
+});
 

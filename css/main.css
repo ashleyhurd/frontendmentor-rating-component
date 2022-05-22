@@ -8,7 +8,7 @@ html, body {
 body {
     background-color: #141519;
     font-family: 'Overpass', sans-serif;
-    font-size: .8em;
+    font-size: .85em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,11 +36,15 @@ ul {
     align-items: center;
 }
 
+
+
+
+
 /* DESIGN DIV */
 .design {
     border-radius: 20px;
     background-color: #202731;
-    margin: auto;
+    margin: 25px;
     padding: 25px;
 }
 
@@ -52,7 +56,8 @@ ul {
 }
 
 .design p {
-    padding-bottom: 15px;
+    line-height: 1.5em;
+    padding-bottom: 5px;
 }
 
 ul li {
@@ -63,7 +68,7 @@ ul li {
     background-color: hsl(213, 19%, 18%);
     width: 10px;
     height: 10px;
-    margin: 8px;
+    margin: 6px;
 }
 
 ul li:hover {
@@ -82,19 +87,39 @@ button {
     padding: 15px;
 }
 
-button:hover {
+button.toggle a:link,
+button.toggle a:visited,
+button.toggle a:hover, 
+button.toggle a:active {
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+button.toggle:hover {
     background-color:hsl(0, 0%, 100%);
     color:hsl(25, 97%, 53%);
 }
 
+
+
+
 /* THANK YOU DIV */ 
+
+.thank-you-state {
+    border-radius: 20px;
+    background-color: #202731;
+    margin: auto;
+    padding: 25px;
+}
 
 
 /* MOBILE */
 @media only screen and (min-width: 375px) {
     /*mobile styles here*/
     }
-    .design {
+    .design,
+    .thank-you-state {
         max-width: 300px;
     }
 
