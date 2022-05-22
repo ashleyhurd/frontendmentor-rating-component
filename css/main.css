@@ -1,8 +1,18 @@
 /*  BASE STYLES */
-
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+}
+  
 body {
     background-color: #141519;
     font-family: 'Overpass', sans-serif;
+    font-size: .8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 h1 {
@@ -13,24 +23,69 @@ p {
     color: hsl(217, 12%, 63%);
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 3%;
+    width: 100%;
+    align-items: center;
+}
+
 /* DESIGN DIV */
+.design {
+    border-radius: 20px;
+    background-color: #202731;
+    margin: auto;
+    padding: 25px;
+}
+
 .design img {
     border-radius: 50%;
     background-color: hsl(213, 19%, 18%);
     border: 1px;
-    padding: 12px;;
+    padding: 15px;
+}
+
+.design p {
+    padding-bottom: 15px;
 }
 
 ul li {
     color: hsl(217, 12%, 63%);
-    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    width: 10px;
+    height: 10px;
+    margin: 8px;
+}
+
+ul li:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
 }
 
 button {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    border-style: none;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 15px;
 }
 
+button:hover {
+    background-color:hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+}
 
 /* THANK YOU DIV */ 
 
@@ -40,7 +95,7 @@ button {
     /*mobile styles here*/
     }
     .design {
-        max-width: 351px;
+        max-width: 300px;
     }
 
 
