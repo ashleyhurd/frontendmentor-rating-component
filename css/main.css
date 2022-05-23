@@ -27,6 +27,7 @@ p {
 ul {
     list-style-type: none;
     margin: 1.5em 0;
+    padding: 0;
 }
 
 .attribution {
