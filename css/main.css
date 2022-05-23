@@ -61,6 +61,12 @@ ul {
     padding-bottom: 5px;
 }
 
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 ul li {
     color: hsl(217, 12%, 63%);
     display: inline-block;
@@ -69,12 +75,20 @@ ul li {
     background-color: hsl(213, 19%, 18%);
     width: 10px;
     height: 10px;
-    margin: 6px;
 }
 
-ul li:hover {
+.hidden {
+    display: none;
+}
+
+ul li:hover:not(.rating-selected) {
     background-color: hsl(217, 12%, 63%);
     color: hsl(0, 0%, 100%);
+}
+
+.rating-selected {
+    background-color:hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
 }
 
 button {
@@ -104,7 +118,6 @@ button:hover {
     margin: 25px;
     padding: 25px;
     text-align: center;
-    display: none;
 }
 
 .thank-you-state img {
@@ -112,12 +125,12 @@ button:hover {
     width: 140px;
 }
 
-.thank-you-state span {
+.text-rating {
     color:hsl(25, 97%, 53%);
     border-radius: 25px;
     background-color: hsl(213, 19%, 18%);
     padding: 8px;
-    margin: 15px;
+    margin: 15px 60px;    
 }
 
 .thank-you-state h1 {
