@@ -35,8 +35,14 @@ ul {
     bottom: 3%;
     width: 100%;
     align-items: center;
-}
+    font-size: 11px;
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+  }
 
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
 
 
 
